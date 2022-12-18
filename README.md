@@ -28,14 +28,14 @@ python gui.py
 ### **1. first cross**
 ```
 white center down
-for color in (cornflowerblue, green, cornflowerblue, blue)
+for color in (red, green, orange, blue)
     center color in front
     place white-color edge in the bottom-front position
 ```
 
 ### **2. F2L (first two layers)**
 ```
-for color in (blue, cornflowerblue, green, cornflowerblue)
+for color in (blue, red, green, orange)
     center color in front
     correct corner in the top right position
     place correct corner
