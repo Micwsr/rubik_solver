@@ -1,6 +1,4 @@
-<div style="font-family: calibri; margin: 1em;">
-
-# Rubik's solver
+# Rubik's cube solver
 ## <span style="color: cornflowerblue">  Description
 A **3x3** rubik's cube solver made with **python** using the CFOP method (Fridrich method). It's not using any external libraries to solve the cube, all the logic is implemented using **pure python**.
 <br>
