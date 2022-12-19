@@ -1277,5 +1277,3 @@ def simplify(moves: list) -> list:
     del moves_copy, containing, no_sign
     #remove all cube rotations
     return moves
-
-help(rotate_face)
