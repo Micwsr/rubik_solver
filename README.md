@@ -1,8 +1,9 @@
 # Rubik's cube solver
-## <span style="color: cornflowerblue">  Description
 A **3x3** rubik's cube solver made with **python** using the CFOP method (Fridrich method). It's not using any external libraries to solve the cube, all the logic is implemented using **pure python**.
 <br>
 Only **pygame** is used for the GUI.
+<br>
+The project comes with a decent amount of cases provided by the tester.py file. 
 
 ### <span style="color: cornflowerblue"> RUN
 ```
@@ -16,6 +17,9 @@ python gui.py
 <img src="gui_utils/assets/terminal_solver_3.png" width="410" height="405">
 </p>
 
+ ---
+    
+ ### What is provided
 | GUI| text-based UI | random tester | 
 |:--:|:--:|:--:|
 | A graphical user interface made with pygame.| A text-based interface created using pure python. | A tester which tries to solve the cube previously scrambled with a random sequence, if the cube is solved then it tries another one.
