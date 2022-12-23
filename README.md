@@ -1,7 +1,7 @@
 # Rubik's solver
 A **3x3** rubik's cube solver made with **python**. It uses the CFOP method (Jessica Fridrich) to solve the last face but the two first layer are solved using a home made algorithm (cf. Solving process). It doesn't use any external libraries to solve the cube, all the logic is implemented using **pure python**. 
 
-### <span style="color: cornflowerblue"> RUN
+### <span style="color: cornflowerblue"> Run
 ```
 pip install pygame
 ```
