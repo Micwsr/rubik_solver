@@ -1,9 +1,5 @@
-# Rubik's cube solver
-A **3x3** rubik's cube solver made with **python** using the CFOP method (Fridrich method). It's not using any external libraries to solve the cube, all the logic is implemented using **pure python**.
-<br>
-Only **pygame** is used for the GUI.
-<br>
-The project comes with a decent amount of cases provided by the tester.py file. 
+# Rubik's solver
+A **3x3** rubik's cube solver made with **python**. It uses the CFOP method (Jessica Fridrich) to solve the last face but the two first layer are solved using a home made algorithm (cf. Solving process). It doesn't use any external libraries to solve the cube, all the logic is implemented using **pure python**. 
 
 ### <span style="color: cornflowerblue"> RUN
 ```
@@ -17,45 +13,62 @@ python gui.py
 <img src="gui_utils/assets/terminal_solver_3.png" width="410" height="405">
 </p>
 
- ---
-    
- ### What is provided
-| GUI| text-based UI | random tester | 
-|:--:|:--:|:--:|
-| A graphical user interface made with pygame.| A text-based interface created using pure python. | A tester which tries to solve the cube previously scrambled with a random sequence, if the cube is solved then it tries another one.
-<span style="color: ; font-size: 15px;">gui.py</span>|<span style="color: ; font-size: 15px;">terminal_ui.py|<span style="color: ; font-size: 15px;">tester.py</span>
+---
+## <span style="color: cornflowerblue"> GUI Usage
+SET COLORS
+- Click on a selector at the bottom left of the screen, then click where you want to set the colour. You can click several times on the cube unfold.
+<br>
 
+SOLVE THE CUBE
+- Press the solve button, then the instructions will appear on the console according to the "Singmaster notation" but with - for the counter-clockwise rotations. If there is a problem with the colours you have given, then an error will be indicated in the console.
 
 ---
-## <span style="color: cornflowerblue"> SOLVING PROCESS (simplified CFOP, simplified Fridrich method)
 
-### **1. first cross**
-```
-white center down
-for color in (red, green, orange, blue)
-    center color in front
-    place white-color edge in the bottom-front position
-```
+## <span style="color: cornflowerblue"> Project content
+It comes with a decent amount of test cases in the test_cases.py file (1369 cases). In each case the cube was mixed with a random sequence of movements and the program successfully solved the cube. These cases were provided by the tester in about 3 minutes.
 
-### **2. F2L (first two layers)**
-```
-for color in (blue, red, green, orange)
-    center color in front
-    correct corner in the top right position
-    place correct corner
-    place correct edge
-```
-### **3. last cross**
+| GUI| text-based UI | tester | 
+|:--:|:--:|:--:|
+| A graphical user interface made with pygame.| A text-based interface created using pure python. | An infinite loop which tries to solve the cube previously scrambled with a random sequence, if the cube is solved then it tries another one. Useful to debug the program.
+<span style="color: ; font-size: 15px;">gui.py</span>|<span style="color: ; font-size: 15px;">terminal_ui.py|<span style="color: ; font-size: 15px;">tester.py</span>
+
+---
+
+## <span style="color: cornflowerblue"> Solving process (simplified CFOP, simplified Fridrich method)
+
+### **first cross**
+1. **white** center down
+   
+    a) **red** center in front
+        **/** **white-red** edge in the bottom-front position
+
+    b) **green** center in front
+        **/** **white-green** edge in the bottom-front position
+
+    c) **orange** center in front
+        **/** **white-orange** edge in the bottom-front position
+
+    d) **blue** center in front
+        **/** **white-blue** edge in the bottom-front position
+
+### **F2L (first two layers)**
+for each color in (blue, red, green, orange)
+1. **blue** center in front
+
+    a) **white-red-blue** corner in the top right position
+    
+    b) correct corner correctly placed in the bottom right position
+    
+    c) place correct edge
+
+### **last cross**
 Solve the last cross according to 4 different cross' states.
 
-### **4. OLL (orient last layer)**
+### **OLL (orient last layer)**
 Solves the cube according to 7 different cases. (OLL cross)
 
-### **5. PLL (permute last layer)**
+### **PLL (permute last layer)**
 Solves the pll according to 21 pll cases.
 
-### **6. rotate last layer**
+### **rotate last layer**
 Turns the last layer, the pll sometimes leaves one face to turn.
-
-
-</div>
