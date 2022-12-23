@@ -1,4 +1,4 @@
-# Rubik's solver<img src="gui_utils/assets/rubik_icon.png" width="50px" style="position: absolute; top: 2em; right: 3em">
+# Rubik's solver<img src="gui_utils/assets/rubik_icon.png" width="50px" style="position: absolute; top: 2em; right: 1em">
 
 A **3x3** rubik's cube solver made with **python**. It uses the CFOP method (Jessica Fridrich) to solve the last face but the two first layer are solved using a home made algorithm (cf. Solving process). It doesn't use any external libraries to solve the cube, all the logic is implemented using **pure python**. 
 
