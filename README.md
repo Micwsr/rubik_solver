@@ -1,4 +1,18 @@
-# Rubik's solver
+```
+                ______________________________
+     ______    /_____________________________/
+    |   _  \            _            _       _
+    |  |_|  |  _    _  | | __    _  | |  _  /_/  ______
+    |    __/  | |  | | | |/  \  | | | | / /     /  __  \  
+    | |\ \    | |  | | |   /| | | | | |/ /     | /   |_|
+    | | \ \_  | |__| | |  |_/ | | | |    \     \ \ 
+    |_|  \__| \______/ \_____/  |_| |_| \_\     \ \ 
+                                                 \ \ 
+     ________________________________________   _ \ \ 
+    /_______________________________________/  / / \ \ 
+                                              | |_ /  | 
+    Welcome to the rubik solver!              \______/ 
+```
 A **3x3** rubik's cube solver made with **python**. It uses the CFOP method (Jessica Fridrich) to solve the last face but the two first layer are solved using a home made algorithm (cf. Solving process). It doesn't use any external libraries to solve the cube, all the logic is implemented using **pure python**. 
 
 ### <span style="color: cornflowerblue"> RUN
