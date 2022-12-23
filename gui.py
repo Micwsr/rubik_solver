@@ -12,8 +12,6 @@ from change_wd import *
 change_wd()
 pygame.init()
 
-#-------------------------------------------------------------------------------------------------------------------------------------------------------------------#
-
 class Screen():
     def __init__(self, width, height, caption, FPS):
         self.width = width
@@ -32,8 +30,6 @@ class Screen():
 screen = Screen(1000, 900, "RUBIK'S CUBE SOLVER", 60)
 window = screen.create_window()
 
-#-------------------------------------------------------------------------------------------------------------------------------------------------------------------#
-
 rects = [
 [pygame.Rect(99, 230.2, 67, 67), pygame.Rect(166, 230.2, 67, 67), pygame.Rect(233, 230.2, 67, 67), pygame.Rect(99, 297.2, 67, 67), pygame.Rect(166, 297.2, 67, 67), pygame.Rect(233, 297.2, 67, 67), pygame.Rect(99, 364.2, 67, 67), pygame.Rect(166, 364.2, 67, 67), pygame.Rect(233, 364.2, 67, 67)],
 [pygame.Rect(300, 230.2, 67, 67), pygame.Rect(367, 230.2, 67, 67), pygame.Rect(434, 230.2, 67, 67), pygame.Rect(300, 297.2, 67, 67), pygame.Rect(367, 297.2, 67, 67), pygame.Rect(434, 297.2, 67, 67), pygame.Rect(300, 364.2, 67, 67), pygame.Rect(367, 364.2, 67, 67), pygame.Rect(434, 364.2, 67, 67)],
@@ -42,24 +38,17 @@ rects = [
 [pygame.Rect(300, 29.2, 67, 67), pygame.Rect(367, 29.2, 67, 67), pygame.Rect(434, 29.2, 67, 67), pygame.Rect(300, 96.2, 67, 67), pygame.Rect(367, 96.2, 67, 67), pygame.Rect(434, 96.2, 67, 67), pygame.Rect(300, 163.2, 67, 67), pygame.Rect(367, 163.2, 67, 67), pygame.Rect(434, 163.2, 67, 67)],
 [pygame.Rect(300, 431.2, 67, 67), pygame.Rect(367, 431.2, 67, 67), pygame.Rect(434, 431.2, 67, 67), pygame.Rect(300, 498.2, 67, 67), pygame.Rect(367, 498.2, 67, 67), pygame.Rect(434, 498.2, 67, 67), pygame.Rect(300, 565.2, 67, 67), pygame.Rect(367, 565.2, 67, 67), pygame.Rect(434, 565.2, 67, 67)]]
 
-
-#-------------------------------------------------------------------------------------------------------------------------------------------------------------------#
-
 background = pygame.image.load(os.path.join("gui_utils", "assets", "background.png"))
 solve_img_normal = pygame.transform.scale(pygame.image.load(os.path.join("gui_utils", "assets", "solve1.png")), (327, 58))
 solve_img_clicking = pygame.transform.scale(pygame.image.load(os.path.join("gui_utils", "assets", "solve2.png")), (321, 53))
 clear_img_normal = pygame.transform.scale(pygame.image.load(os.path.join("gui_utils", "assets", "clear1.png")), (243, 39))
 clear_img_clicking = pygame.transform.scale(pygame.image.load(os.path.join("gui_utils", "assets", "clear2.png")), (238, 35))
 
-
 button_solve = Button(window, 761, 760, solve_img_normal, solve_img_normal, solve_img_clicking)
 button_clear = Button(window, 761, 827, clear_img_normal, clear_img_normal, clear_img_clicking)
-#-------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
 def redraw_everything():
     screen.screen.blit(window, window.get_rect(bottomleft = screen.screen.get_rect().bottomleft))
-
-#-------------------------------------------------------------------------------------------------------------------------------------------------------------------#
 
 def check_for_event():
     for event in pygame.event.get():
@@ -74,9 +63,7 @@ def check_for_event():
                 pygame.joystick.quit()
                 pygame.quit()
                 sys.exit()
-
-#-------------------------------------------------------------------------------------------------------------------------------------------------------------------#
-
+                
 run = True
 while run:
     check_for_event()
