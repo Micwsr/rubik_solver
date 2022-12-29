@@ -1,3 +1,9 @@
+#It scrambles the cube with a random sequence (test_algo)
+#Then it solves the cube
+#Finally it verifies if the cube was correctly solved, if so then it tries another one (infinite loop)
+#If the cube wasn't correctly solved, it stops the loop and returns the test_algo
+#Very useful to debug the program
+
 import random
 from solver_utils.functions import *
 from solver_utils.data import *
