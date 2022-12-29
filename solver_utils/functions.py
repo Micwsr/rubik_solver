@@ -1084,7 +1084,7 @@ def solve_oll(color: list, centers_map: list, cube_map: list, moves: list) -> li
     return moves, cube_map
 
 def solve_pll(cube_map: list, moves: list, axis_of_rotation: str, plls: list) -> list:
-    """Solves the PLL. (Tries each pll until it finds the right one)
+    """Solves the PLL. (Tries each pll until it finds the algorithm that solves the cube)
 
     Args:
         cube_map (list): current layout of the cube
