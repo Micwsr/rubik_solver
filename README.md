@@ -43,7 +43,7 @@ SOLVE THE CUBE
 ---
 
 ## <span style="color: cornflowerblue"> Project content
-It comes with a decent amount of test cases in the test_cases.py file (1369 cases). In each case the cube was mixed with a random sequence of movements and the program successfully solved the cube. These cases were provided by the tester in about 3 minutes.
+A decent amount of test cases in the test_cases.py file (1369 cases) In each case the cube was mixed with a random sequence of movements and the program successfully solved the cube. These cases were provided by the tester in about 3 minutes.
 
 | GUI| text-based UI | tester | 
 |:--:|:--:|:--:|
