@@ -17,7 +17,7 @@ A **3x3** rubik's cube solver made with **python**. It uses the CFOP method (Jes
 
 --- 
 
-<br> The first two layers are solved using a home made algorithm (cf. Solving process), the last face is solved using the CFOP method. <br> <br> It doesn't use any external libraries to solve the cube, all the logic is implemented using **pure python**. 
+The first two layers are solved using a home made algorithm (cf. Solving process), the last face is solved using the CFOP method. <br> <br> It doesn't use any external libraries to solve the cube, all the logic is implemented using **pure python**. 
 
 ### <span style="color: cornflowerblue"> RUN
 ```
