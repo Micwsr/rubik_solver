@@ -60,17 +60,17 @@ These cases were provided by the tester in about 3 minutes. And are in the test_
 
 <div align="center">
 
-# <span style="color: cornflowerblue"> 🛠️ How does it work 
+## <span style="color: cornflowerblue"> 🛠️ How does it work 
 Home made algorithm for the first two layers and a simplified CFOP, simplified Fridrich method for the last layer.
 
-## Useful functions
+### Useful functions
 The cube is represented with a two-dimensional list: cube_map. The list contains 6 lists, each representing a face of the cube. The colours are represented with numbers from 0 to 5.
 
-## Solving process
+### Solving process
 Home made algorithm for the first two layers and a simplified CFOP, simplified Fridrich method for the last layer.
 </div>
 
-### First cross
+#### First cross
 1. **white** center down
    
     a) **red** center in front
@@ -85,7 +85,7 @@ Home made algorithm for the first two layers and a simplified CFOP, simplified F
     d) **blue** center in front
         **/** **white-blue** edge in the bottom-front position
 
-### F2L (first two layers)
+#### F2L (first two layers)
 for each color in (blue, red, green, orange)
 1. **blue** center in front
 
@@ -95,16 +95,16 @@ for each color in (blue, red, green, orange)
     
     c) place correct edge
 
-### Last cross
+#### Last cross
 Solve the last cross according to 4 different cross' states.
 
-### OLL (orient last layer)
+#### OLL (orient last layer)
 Solves the cube according to 7 different cases. (OLL cross)
 
-### PLL (permute last layer)
+#### PLL (permute last layer)
 Solves the pll according to 21 pll cases.
 
-### Rotate last layer
+#### Rotate last layer
 Turns the last layer, the pll sometimes leaves one face to turn.
 
 ---
