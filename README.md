@@ -21,8 +21,8 @@ The first two layers are solved using a home made algorithm. The last face is so
 ```
 
 <p float="left">
-<img src="gui_utils/assets/gui_preview.png" width="490">
-<img src="gui_utils/assets/terminal_solver_3.png" width="410" height="405">
+<img src="gui_utils/assets/gui_preview.png" width="490" align="center">
+<img src="gui_utils/assets/terminal_solver_3.png" width="410" height="405" align="center">
 </p>
 
 <div align="center">
