@@ -110,12 +110,12 @@ Turns the last layer, the pll sometimes leaves one face to turn.
 ```
 ## ⚠️ Dependencies
 - python 3.10
-- ### Minimum files/folders required 
-- #### To use the gui only
-- | gui.py | solver_utils | gui_utils
-- |:------:|:------------:|:--------:|
+### Minimum files/folders required 
+#### To use the gui only
+| gui.py | solver_utils | gui_utils
+|:------:|:------------:|:--------:|
 
-- #### To use the text ui only
+#### To use the text ui only
 
-- | terminal_ui.py | solver_utils |
-- |:--------------:|:------------:|
+| terminal_ui.py | solver_utils |
+|:--------------:|:------------:|
