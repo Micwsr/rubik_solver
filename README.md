@@ -62,6 +62,7 @@ These cases were provided by the tester in about 3 minutes. And are in the test_
 
 ## <span style="color: cornflowerblue"> 🛠️ How does it work 
 The cube is represented with a two-dimensional list: cube_map. The list contains 6 lists, each representing a face of the cube. The colours are represented with numbers from 0 to 5.
+
 <span align="left">
 <br> <br>
 A solved cube would look like this:
