@@ -30,7 +30,8 @@ SET COLORS
 <br>
 
 SOLVE THE CUBE
-- Press the solve button, then the instructions will appear on the console according to the "Singmaster notation" but with - for the counter-clockwise rotations. 
+1. Press the solve button
+2. The instructions will appear on the console according to the "Singmaster notation" but with "-" for the counter-clockwise rotations. 
 <br>
 If there is a problem with the colours you have given, then an error will be indicated in the console.
 
