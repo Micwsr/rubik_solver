@@ -9,7 +9,7 @@ The first two layers are solved using a home made algorithm (cf. Solving process
 
 </div>
 
-### <span style="color: cornflowerblue"> RUN
+### <span style="color: cornflowerblue"> Run
 
 ```
 pip install pygame
