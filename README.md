@@ -1,5 +1,5 @@
 # Rubik's cube solver
-A **3x3** rubik's cube solver made with **python** using the CFOP method (Jessica Fridrich) and a home made algorithm.
+A **3x3** rubik's cube solver made with **python**.
 
 --- 
 
