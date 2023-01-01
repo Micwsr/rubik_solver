@@ -25,11 +25,14 @@ python gui.py
 ---
 ## <span style="color: cornflowerblue"> GUI Usage
 SET COLORS
-- Click on a selector at the bottom left of the screen, then click where you want to set the colour. You can click several times on the cube unfold.
+1. Click on a selector at the bottom left of the screen.
+2. Click wherever you want to set the colour.
 <br>
 
 SOLVE THE CUBE
-- Press the solve button, then the instructions will appear on the console according to the "Singmaster notation" but with - for the counter-clockwise rotations. If there is a problem with the colours you have given, then an error will be indicated in the console.
+- Press the solve button, then the instructions will appear on the console according to the "Singmaster notation" but with - for the counter-clockwise rotations. 
+<br>
+If there is a problem with the colours you have given, then an error will be indicated in the console.
 
 ---
 
