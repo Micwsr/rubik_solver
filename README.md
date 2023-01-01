@@ -15,9 +15,9 @@ The first two layers are solved using a home made algorithm. The last face is so
 ### <span style="color: cornflowerblue"> 🚀 Run
 </div>
 
-```bash
-$ pip install pygame
-$ python gui.py
+```
+> pip install pygame
+> python gui.py
 ```
 
 <p float="left">
