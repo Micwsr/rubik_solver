@@ -111,7 +111,7 @@ Turns the last layer, the pll sometimes leaves one face to turn.
 
 </div>
 
-**python 3.10**
+**Python 3.10**
 
 ### Minimum files/folders required 
 #### To use the gui only
