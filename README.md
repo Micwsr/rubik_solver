@@ -75,6 +75,9 @@ cube_map = [[4,4,4,4,4,4,4,4,4],[2,2,2,2,2,2,2,2,2],[5,5,5,5,5,5,5,5,5],[3,3,3,3
 
 ### Useful functions
 
+```python:
+cube_map = rotate_cube(axis, cube_map)
+```
 
 ### Solving process
 Home made algorithm for the first two layers and a simplified CFOP (Fridrich method) for the last layer.
