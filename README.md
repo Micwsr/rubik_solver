@@ -35,12 +35,15 @@ If there is a problem with the colours you have given, then an error will be ind
 
 ---
 
+<div align="center">
+
 ## <span style="color: cornflowerblue"> 🎁 Content
 The programm has been tested to work with 1369 different scrambled cases.
 <br> <br>
 In each case the cube was mixed with a random sequence of movements and the program successfully solved the cube. 
 These cases were provided by the tester in about 3 minutes. And are in the test_cases.txt file.
-
+</div>
+ 
 | GUI| text-based UI | tester | 
 |:--:|:--:|:--:|
 | A graphical user interface made with pygame.| A text-based interface created using pure python. | An infinite loop which tries to solve the cube previously scrambled with a random sequence, if the cube is solved then it tries another one. Useful to debug the program.
