@@ -33,7 +33,7 @@ python gui.py
 <br>
 If there is a problem with the colours you have given, then an error will be indicated in the console.
 <br> <br>
-⚠️ The cube must remain in the same position as you have defined.
+⚠️ The cube must remain in the same position as you have defined. ⚠️
 
 ---
 
