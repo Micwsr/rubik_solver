@@ -32,8 +32,9 @@ python gui.py
 2. The instructions will appear on the console according to the "Singmaster notation" but with "-" for the counter-clockwise rotations. 
 <br>
 If there is a problem with the colours you have given, then an error will be indicated in the console.
-<br>
+<br> <br>
 ⚠️ The cube must remain in the same position as you have defined.
+
 ---
 
 ## <span style="color: cornflowerblue"> Content
