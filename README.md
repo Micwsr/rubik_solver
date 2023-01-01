@@ -6,6 +6,7 @@ A **3x3** rubik's cube solver made with **python**.
 ---
 
 The first two layers are solved using a home made algorithm (cf. Solving process), the last face is solved using the CFOP method. <br> <br> It doesn't use any external libraries to solve the cube, all the logic is implemented using **pure python**. 
+</div>
 
 ### <span style="color: cornflowerblue"> 🚀 Run
 
@@ -44,10 +45,11 @@ A decent amount of test cases in the test_cases.py file (1369 cases) In each cas
 <span style="color: ; font-size: 15px;">gui.py</span>|<span style="color: ; font-size: 15px;">terminal_ui.py|<span style="color: ; font-size: 15px;">tester.py</span>
 
 ---
-
+<div align="center">
 ## <span style="color: cornflowerblue"> 🛠️ How does it work 
 Home made algorithm for the first two layers and a simplified CFOP, simplified Fridrich method for the last layer.
-
+</div>
+ 
 ### **first cross**
 1. **white** center down
    
@@ -100,4 +102,3 @@ Turns the last layer, the pll sometimes leaves one face to turn.
                                               | |_ /  | 
     Welcome to the rubik solver!              \______/ 
 ```
-</div>
