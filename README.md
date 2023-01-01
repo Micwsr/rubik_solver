@@ -118,4 +118,6 @@ Minimum files/folders needed:
 
 ### To use the text ui only
 Minimum files/folders needed:
-terminal_ui.py, solver_utils
+
+| terminal_ui.py | solver_utils |
+|:--------------:|:------------:|
