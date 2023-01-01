@@ -99,8 +99,13 @@ Solves the pll according to 21 pll cases.
 Turns the last layer, the pll sometimes leaves one face to turn.
 
 ---
-   
+
+<div align="center"> 
+  
 ## ⚠️ Dependencies
+
+</div>
+
 - python 3.10
 ### Minimum files/folders required 
 #### To use the gui only
