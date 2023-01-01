@@ -15,13 +15,11 @@ The first two layers are solved using a home made algorithm. The last face is so
 ### <span style="color: cornflowerblue"> 🚀 Run
 </div>
 
+```bash
+$ pip install pygame
+$ python gui.py
 ```
-pip install pygame
-test.test(test)
-```
-```
-python gui.py
-```
+
 <p float="left">
 <img src="gui_utils/assets/gui_preview.png" width="490">
 <img src="gui_utils/assets/terminal_solver_3.png" width="410" height="405">
