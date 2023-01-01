@@ -116,13 +116,13 @@ Turns the last layer, the pll sometimes leaves one face to turn.
 ### Minimum files/folders required 
 #### To use the gui only
 
-| gui.py | solver_utils | gui_utils
-|:------:|:------------:|:--------:|
+| gui.py | solver_utils | gui_utils | change_wd.py |
+|:------:|:------------:|:---------:|:-------------|
 
 #### To use the text ui only
 
-| terminal_ui.py | solver_utils |
-|:--------------:|:------------:|
+| terminal_ui.py | solver_utils | change_wd.py
+|:--------------:|:------------:|:-----------:|
 
 ```
                 ______________________________
