@@ -27,9 +27,7 @@ python gui.py
 2. Click wherever you want to set the colour.
 ### Solve your cube
 1. Press the solve button
-2. The instructions will appear on the console according to the "Singmaster notation" but with "-" for the counter-clockwise rotations. 
-<br>
-<a href=https://i.stack.imgur.com/8i7FQ.jpg>Singmaster notation</a>
+2. The instructions will appear on the console according to the "<a href=https://i.stack.imgur.com/8i7FQ.jpg>Singmaster notation</a>" but with "-" for the counter-clockwise rotations.
 
 If there is a problem with the colours you have given, then an error will be indicated in the console.
 <br> <br>
