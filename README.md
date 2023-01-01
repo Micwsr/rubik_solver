@@ -45,9 +45,12 @@ A decent amount of test cases in the test_cases.py file (1369 cases) In each cas
 <span style="color: ; font-size: 15px;">gui.py</span>|<span style="color: ; font-size: 15px;">terminal_ui.py|<span style="color: ; font-size: 15px;">tester.py</span>
 
 ---
+
 <div align="center">
+
 ## <span style="color: cornflowerblue"> 🛠️ How does it work 
 Home made algorithm for the first two layers and a simplified CFOP, simplified Fridrich method for the last layer.
+
 </div>
  
 ### **first cross**
