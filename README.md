@@ -9,7 +9,7 @@ The first two layers are solved using a home made algorithm (cf. Solving process
 
 </div>
 
-### <span style="color: cornflowerblue"> Run 🚀
+### <span style="color: cornflowerblue"> 🚀 Run
 
 ```
 pip install pygame
@@ -23,7 +23,7 @@ python gui.py
 </p>
 
 ---
-## <span style="color: cornflowerblue"> GUI Usage
+## <span style="color: cornflowerblue"> 📒 GUI Usage
 ### Give the layout of your cube
 1. Click on a selector at the bottom left of the screen.
 2. Click wherever you want to set the colour.
@@ -37,7 +37,7 @@ If there is a problem with the colours you have given, then an error will be ind
 
 ---
 
-## <span style="color: cornflowerblue"> Content
+## <span style="color: cornflowerblue"> 🎁 Content
 A decent amount of test cases in the test_cases.py file (1369 cases) In each case the cube was mixed with a random sequence of movements and the program successfully solved the cube. These cases were provided by the tester in about 3 minutes.
 
 | GUI| text-based UI | tester | 
