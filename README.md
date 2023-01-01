@@ -17,6 +17,7 @@ The first two layers are solved using a home made algorithm. The last face is so
 
 ```
 pip install pygame
+test.test(test)
 ```
 ```
 python gui.py
