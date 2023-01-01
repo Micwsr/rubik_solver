@@ -67,7 +67,7 @@ The cube is represented with a two-dimensional list: cube_map. The list contains
 <span align="left">
    
 ```
-cube_map = [[
+cube_map = [[4,4,4,4,4,4,4,4,4],[2,2,2,2,2,2,2,2,2],[5,5,5,5,5,5,5,5,5],[3,3,3,3,3,3,3,3,3],[1,1,1,1,1,1,1,1,1],[0,0,0,0,0,0,0,0,0]]
 ```
 </span>
 
