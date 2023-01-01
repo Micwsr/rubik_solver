@@ -28,8 +28,9 @@ python gui.py
 ### Solve your cube
 1. Press the solve button
 2. The instructions will appear on the console according to the "Singmaster notation" but with "-" for the counter-clockwise rotations. 
-<a href=https://i.stack.imgur.com/8i7FQ.jpg>Singmaster notation</a>
 <br>
+<a href=https://i.stack.imgur.com/8i7FQ.jpg>Singmaster notation</a>
+
 If there is a problem with the colours you have given, then an error will be indicated in the console.
 <br> <br>
 ⚠️ The cube must remain in the same position as you have defined. ⚠️
