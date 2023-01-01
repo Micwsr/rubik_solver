@@ -36,7 +36,10 @@ If there is a problem with the colours you have given, then an error will be ind
 ---
 
 ## <span style="color: cornflowerblue"> 🎁 Content
-A decent amount of test cases in the test_cases.py file (1369 cases) In each case the cube was mixed with a random sequence of movements and the program successfully solved the cube. These cases were provided by the tester in about 3 minutes.
+The programm has been tested to work with 1369 different scrambled cases.
+<br>
+In each case the cube was mixed with a random sequence of movements and the program successfully solved the cube. 
+These cases were provided by the tester in about 3 minutes. And are in the test_cases.txt file.
 
 | GUI| text-based UI | tester | 
 |:--:|:--:|:--:|
