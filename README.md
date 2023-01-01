@@ -100,5 +100,5 @@ Turns the last layer, the pll sometimes leaves one face to turn.
      ________________________________________   _ \ \ 
     /_______________________________________/  / / \ \ 
                                               | |_ /  | 
-    Welcome to the rubik solver!              \______/ 
+                                              \______/ 
 ```
