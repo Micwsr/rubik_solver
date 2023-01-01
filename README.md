@@ -62,14 +62,16 @@ These cases were provided by the tester in about 3 minutes. And are in the test_
 
 ## <span style="color: cornflowerblue"> 🛠️ How does it work 
 The cube is represented with a two-dimensional list: cube_map. The list contains 6 lists, each representing a face of the cube. The colours are represented with numbers from 0 to 5.
-
-### Useful functions
 <span align="left">
-   
+A solved cube would look like this:
+
 ```
 cube_map = [[4,4,4,4,4,4,4,4,4],[2,2,2,2,2,2,2,2,2],[5,5,5,5,5,5,5,5,5],[3,3,3,3,3,3,3,3,3],[1,1,1,1,1,1,1,1,1],[0,0,0,0,0,0,0,0,0]]
 ```
 </span>
+
+### Useful functions
+
 
 ### Solving process
 Home made algorithm for the first two layers and a simplified CFOP (Fridrich method) for the last layer.
