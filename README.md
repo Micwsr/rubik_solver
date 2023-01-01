@@ -9,7 +9,7 @@ The first two layers are solved using a home made algorithm (cf. Solving process
 
 </div>
 
-### <span style="color: cornflowerblue"> Run
+### <span style="color: cornflowerblue"> Run 🚀
 
 ```
 pip install pygame
@@ -47,7 +47,8 @@ A decent amount of test cases in the test_cases.py file (1369 cases) In each cas
 
 ---
 
-## <span style="color: cornflowerblue"> Solving process (simplified CFOP, simplified Fridrich method)
+## <span style="color: cornflowerblue"> 🛠️ How does it work 
+Home made algorithm for the first two layers and a simplified CFOP, simplified Fridrich method for the last layer.
 
 ### **first cross**
 1. **white** center down
