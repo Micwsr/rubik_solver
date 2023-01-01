@@ -64,9 +64,12 @@ These cases were provided by the tester in about 3 minutes. And are in the test_
 The cube is represented with a two-dimensional list: cube_map. The list contains 6 lists, each representing a face of the cube. The colours are represented with numbers from 0 to 5.
 
 ### Useful functions
+<span align="left">
+   
 ```
 cube_map = [[
 ```
+</span>
 
 ### Solving process
 Home made algorithm for the first two layers and a simplified CFOP (Fridrich method) for the last layer.
