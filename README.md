@@ -58,13 +58,21 @@ These cases were provided by the tester in about 3 minutes. And are in the test_
 | A graphical user interface made with pygame.| A text-based interface created using pure python. | An infinite loop which tries to solve the cube previously scrambled with a random sequence, if the cube is solved then it tries another one. Useful to debug the program.
 <span style="color: ; font-size: 15px;">gui.py</span>|<span style="color: ; font-size: 15px;">terminal_ui.py|<span style="color: ; font-size: 15px;">tester.py</span>
 
+## Useful functions
+The cube representation is a two dimensional
+
 <div align="center">
 
-## <span style="color: cornflowerblue"> 🛠️ How does it work 
+# <span style="color: cornflowerblue"> 🛠️ How does it work 
 Home made algorithm for the first two layers and a simplified CFOP, simplified Fridrich method for the last layer.
 
 </div>
- 
+
+## Useful functions
+The cube is represented with a two-dimensional list: cube_map. The list contains 6 lists, each representing a face of the cube. The colours are represented with numbers from 0 to 5.
+
+## Solving process
+Home made algorithm for the first two layers and a simplified CFOP, simplified Fridrich method for the last layer.
 ### First cross
 1. **white** center down
    
