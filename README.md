@@ -3,7 +3,7 @@
 # Rubik's cube solver
 A **3x3** rubik's cube solver made with **python**.
 
---- 
+---
 
 The first two layers are solved using a home made algorithm (cf. Solving process), the last face is solved using the CFOP method. <br> <br> It doesn't use any external libraries to solve the cube, all the logic is implemented using **pure python**. 
 
@@ -32,7 +32,8 @@ python gui.py
 2. The instructions will appear on the console according to the "Singmaster notation" but with "-" for the counter-clockwise rotations. 
 <br>
 If there is a problem with the colours you have given, then an error will be indicated in the console.
-
+<br>
+⚠️ The cube must remain in the same position as you have defined.
 ---
 
 ## <span style="color: cornflowerblue"> Content
