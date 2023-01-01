@@ -108,8 +108,6 @@ Turns the last layer, the pll sometimes leaves one face to turn.
                                               | |_ /  | 
                                               \______/ 
 ```
-
-<div align="center">
    
 ## ⚠️ Dependencies
 - python 3.10
@@ -119,8 +117,5 @@ Turns the last layer, the pll sometimes leaves one face to turn.
 |:------:|:------------:|:--------:|
 
 #### To use the text ui only
-
 | terminal_ui.py | solver_utils |
 |:--------------:|:------------:|
-
-</div>
