@@ -1,7 +1,7 @@
 <div align="center">
 
 # Rubik's cube solver
-A **3x3** rubik's cube solver made with **python**.
+A **3x3** rubik's cube solver made with **Python**.
 
 ---
 
