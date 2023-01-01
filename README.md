@@ -112,7 +112,10 @@ Turns the last layer, the pll sometimes leaves one face to turn.
 - python 3.10
 ### To use the gui only
 Minimum files/folders needed:
+
 | gui.py | solver_utils | gui_utils
+|:------:|:------------:|:--------:|
+
 ### To use the text ui only
 Minimum files/folders needed:
 terminal_ui.py, solver_utils
