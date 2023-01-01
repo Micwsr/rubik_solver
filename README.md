@@ -21,7 +21,12 @@ python gui.py
 <img src="gui_utils/assets/terminal_solver_3.png" width="410" height="405">
 </p>
 
+<div align="center">
+
 ## <span style="color: cornflowerblue"> 📒 GUI Usage
+
+</div>
+
 ### Give the layout of your cube
 1. Click on a selector at the bottom left of the screen.
 2. Click wherever you want to set the colour.
