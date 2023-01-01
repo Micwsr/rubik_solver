@@ -27,8 +27,6 @@ python gui.py
 ### Give the layout of your cube
 1. Click on a selector at the bottom left of the screen.
 2. Click wherever you want to set the colour.
-<br>
-
 ### Solve your cube
 1. Press the solve button
 2. The instructions will appear on the console according to the "Singmaster notation" but with "-" for the counter-clockwise rotations. 
