@@ -21,7 +21,6 @@ python gui.py
 <img src="gui_utils/assets/terminal_solver_3.png" width="410" height="405">
 </p>
 
----
 ## <span style="color: cornflowerblue"> 📒 GUI Usage
 ### Give the layout of your cube
 1. Click on a selector at the bottom left of the screen.
@@ -44,8 +43,6 @@ A decent amount of test cases in the test_cases.py file (1369 cases) In each cas
 | A graphical user interface made with pygame.| A text-based interface created using pure python. | An infinite loop which tries to solve the cube previously scrambled with a random sequence, if the cube is solved then it tries another one. Useful to debug the program.
 <span style="color: ; font-size: 15px;">gui.py</span>|<span style="color: ; font-size: 15px;">terminal_ui.py|<span style="color: ; font-size: 15px;">tester.py</span>
 
----
-
 <div align="center">
 
 ## <span style="color: cornflowerblue"> 🛠️ How does it work 
@@ -53,7 +50,7 @@ Home made algorithm for the first two layers and a simplified CFOP, simplified F
 
 </div>
  
-### **first cross**
+### First cross
 1. **white** center down
    
     a) **red** center in front
@@ -68,7 +65,7 @@ Home made algorithm for the first two layers and a simplified CFOP, simplified F
     d) **blue** center in front
         **/** **white-blue** edge in the bottom-front position
 
-### **F2L (first two layers)**
+### F2L (first two layers)
 for each color in (blue, red, green, orange)
 1. **blue** center in front
 
@@ -78,16 +75,16 @@ for each color in (blue, red, green, orange)
     
     c) place correct edge
 
-### **last cross**
+### Last cross
 Solve the last cross according to 4 different cross' states.
 
-### **OLL (orient last layer)**
+### OLL (orient last layer)
 Solves the cube according to 7 different cases. (OLL cross)
 
-### **PLL (permute last layer)**
+### PLL (permute last layer)
 Solves the pll according to 21 pll cases.
 
-### **rotate last layer**
+### Rotate last layer
 Turns the last layer, the pll sometimes leaves one face to turn.
 
 ```
