@@ -108,7 +108,9 @@ Turns the last layer, the pll sometimes leaves one face to turn.
                                               | |_ /  | 
                                               \______/ 
 ```
+
 <div align="center">
+   
 ## ⚠️ Dependencies
 - python 3.10
 ### Minimum files/folders required 
@@ -120,4 +122,5 @@ Turns the last layer, the pll sometimes leaves one face to turn.
 
 | terminal_ui.py | solver_utils |
 |:--------------:|:------------:|
+
 </div>
